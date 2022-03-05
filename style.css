@@ -1,0 +1,41 @@
+/*non facciamo il reset perche all'insterno di bootstrap c'è già si chima rebootcss*/
+
+body{
+    color: #1b1b1b;
+}
+img{
+    max-width: 100%;
+    height: auto;  
+}
+
+.wide{
+    background-color: #163e65;
+    color: azure;
+}
+header{
+    padding: 30px 20px; /*per colorare il nav da boostrap che era nero, tolgo la classe bg-dark,nav-dark invece lo slasciamo perchè fa da solo il contrasto tra chiaro e scuro*/
+}
+#banner{
+    background: url(http://devimg.com/1600x222/dogs)no-repeat center center; 
+    background-size: cover;
+    height: 220px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+footer{
+    margin: 0 auto;
+    display: flex;
+    background-color: #163e65;
+
+}
+
+footer div{ padding: 8vw;}
+footer div p { color: beige;}
+#centrale .container{
+    padding: 20vh;
+}
+.container-fluid{
+    display: flex; justify-content: space-between;
+}
